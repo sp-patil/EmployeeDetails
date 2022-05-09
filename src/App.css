@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main_h1{
+    background-color: aqua;
+    border-radius: 20px;
+}
+.table_main {
+    border-radius: 20px;
+    background: #70808f;
+}
+.table_main table{
+    color: white;
+}
+
+.emplist{
+    border-radius: 15px;
+}
+.btn:focus,
+.btn-close:focus,
+select:focus,
+input:focus{
+    box-shadow: none !important;
+    outline: none !important;
+}
